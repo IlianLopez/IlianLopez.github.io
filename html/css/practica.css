@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#caja1 {
+    height: 100px;
+    background-color: rgb(138, 167, 231);
+}
+#caja1 .item1{
+    float: left;
+    width: 200px;
+    height: 70%;
+    background-color: rgb(224, 83, 83);
+    margin-left: 10%;
+    margin-top: 15px;
+}
+#caja1 .item2{
+    width: 30%;
+    display: inline-block;
+    height: 70%;
+    background-color: rgb(224, 83, 83);
+    margin-left: 38%;
+    margin-top: 15px;
+}
+#caja2 {
+    height: 700px;
+    background-color: rgb(255, 196, 0);
+}
+#caja2 .item3{
+    float: left;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(224, 83, 83);
+    margin-top: 8%;
+    margin-left: 20%;
+    
+}
+#caja3 {
+    height: 500px;
+    background-color: rgb(82, 44, 82);
+}
+#caja3 .item4{
+    width: 22%;
+    display: inline-block;
+    height: 60%;
+    background-color: rgb(50, 43, 51);
+    margin-left: 2%;
+    margin-top: 100px;
+    border-radius: 5%;
+    border-bottom: solid;
+    border-color: rgb(107, 100, 100);
+    
+}
+#caja4 {
+    height: 500px;
+    background-color: rgb(66, 65, 65);
+}
+#caja4 .item5{
+    height: 500px;
+    width: 50%;
+    background-color: black;
+    margin-left: 50%;
+}
+#caja5 {
+    height: 500px;
+    background-color: rgb(82, 44, 82);
+}
+#caja5 .item6{
+    height: 100%;
+    width: 160px;
+    background-color: rgb(26, 41, 29);
+    margin-left: 150px;
+    margin-right: 0px;
+    display: inline-block;
+}
+#caja5 .item7{
+    height: 100%;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    display: inline-block;
+}
+#caja6 {
+    height: 100px;
+    background-color: black;
+}
+#caja7 {
+    height: 900px;
+    background-color: rgb(66, 65, 65);
+}
+#caja7 .item8{
+    background-color: black;
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#caja7 .item8:nth-child(1){
+    margin-left: 15px;
+}
+#caja7 .item8:nth-child(2){
+    width: 150px;
+    transform: rotate(180deg);
+    margin-left: 520px;
+    margin-right: 520px;
+    margin-top: 150px;
+}
+#caja7 .item8:nth-child(3){
+    margin-left: 1;
+}
+#caja7 .item8:nth-child(4){
+    margin-left: 200px;
+}
