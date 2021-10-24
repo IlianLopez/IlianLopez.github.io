@@ -1,0 +1,80 @@
+@media (max-width: 500px){
+    header nav{
+        width: 73px;
+    }
+    header #menuMovil{
+        display: block;
+    }
+    header #menuWeb{
+        display: none;
+    }
+    #main #overlay h2 {
+        margin-top: 180px;
+        color: white;
+        text-align: center;
+        font-size: 4.5rem;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #about .col, #contacto .col{
+        width: 100%;
+    }
+    #about > .col >h2 {
+        padding-bottom: 34px;
+    }
+    #misproyectos > h4 {
+        margin-left: 10%;
+        margin-top: 187px;
+    }
+    #misproyectos .caja {
+        width: 70%;
+        height: 60%;
+        display: inline-block;
+        background-color: white;
+        margin-left: 18%;
+        margin-top: 25px;
+        border-radius: 5%;
+    }
+    #frase {
+        margin-top: 220%;
+        width: 100%;
+        height: 250px;
+        background-image: url(/IlianLopez.github.io/html/img/baka4.jpg);
+    }
+    #frase > h4 {
+        margin-top: 1px;
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 0px;
+        padding-top: 72px;
+    }
+    #about, #contacto {
+        width: 80%;
+        height: 709px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .controls {
+        width: 294px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px
+     solid #148ac0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #derechos {
+        margin-top: 428px;
+        width: 100%;
+        height: 125px;
+        background-color: black;
+    }
+    #main video{
+        display: none;
+    }
+    #main #overlay{
+        background-image: url(../img/snk.jpg);
+    }
+}

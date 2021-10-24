@@ -35,6 +35,9 @@ header nav{
     width: 500px;
     
 }
+header #menuMovil{
+    display: none;
+}
 header nav ul li{
     float: left;
     list-style: none;
@@ -197,7 +200,7 @@ a.btn{
 #frase{
     width: 100%;
     height: 250px;
-    background-image: url(/html/img/baka4.jpg);
+    background-image: url(/IlianLopez.github.io/html/img/baka4.jpg);
 }
 #contacto{
     padding-top: 100px;
