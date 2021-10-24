@@ -148,7 +148,7 @@ a.btn{
     
 }*/
 #misproyectos{
-    height: 500px;
+    min-height: 500px;
     background-color: rgb(243, 239, 239);
 }
 #misproyectos .caja{
