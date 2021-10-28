@@ -1,0 +1,41 @@
+@media (max-width: 414px){
+    header nav{
+        width: 50px;
+    }
+    #inicio #overlay h2{
+        margin-top: 270px;   
+    }
+    header #menuMovil{
+        display: block;
+    }
+    header #menuWeb{
+        display: none;
+    }
+    #sobremi .col{
+        float: left;
+        width: 42%;
+        margin-left: 135px;
+        text-align: justify;
+    }
+    #peliculas{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 13%;
+    }
+    #peliculas .col2{
+    
+        width: 50%;
+        height: 50%;
+        display: inline-block;
+        background-color: var(--text-color);
+        margin-left: 25%;
+        margin-right: 2%;
+        margin-top: 10%;
+        border-radius: 20px;
+    }
+    #contacto #redes{
+        width: 100%;
+        height: 100px;
+        background-color: var(--text-color);
+    }
+}

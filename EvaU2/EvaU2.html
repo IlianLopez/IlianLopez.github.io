@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación Unidad 2</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+</head>
+<body>
+    <header>
+        <div id="Watchate" class="item"> 
+            <h1>WATCHATE</h1>
+        </div>
+        <nav class="item">
+            <ul id="menuWeb">
+                <li>
+                    <a href="#inicio" data-scroll>Inicio</a>
+                </li>
+                <li>
+                    <a href="#antesde" data-scroll>Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="#antesdepeli" data-scroll>Películas</a>
+                </li>
+                <li>
+                    <a href="./Registrar.html" data-scroll>Registrate</a>
+                </li>
+                <li>
+                    <a href="#contacto" data-scroll>Contactanos</a>
+                </li>
+            </ul>
+            <ul id="menuMovil">
+                <li>
+                    <a href="">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+       
+        <video autoplay muted playsinline Loop preload="auto">
+            <source src="./img/mixkit-parents-and-children-watching-movies-on-a-laptop-23442-medium.mp4" type="video/mp4">
+
+        </video>
+        <div id="overlay">
+            <h2 data-aos="fade-in">
+                Bienvenidos a Watchate
+            </h2>
+        </div>
+        </section>
+    <section id="antesde"></section>
+    <section id="sobremi">
+            <h2>
+                Sobre Nosotros
+            </h2>
+            <div class="texto">
+                <p>
+                    Somos una página centrada unicamente en películas,
+                    esta es una simple prueba de como quedaría la página, 
+                    no soy responsable de lo que se suba aquí, ya que es 
+                    de uso totalmente libre por y para los usuarios que entren,
+                    están en su derecho de subir las películas que sean
+                    y solo tiene la finalidad de dar entretenimiento. Y
+                    recuerden que su uso es totalmete educativo.
+                </p>
+            </div>
+            <div class="col">
+                <div class="img">
+                    <img src="./img/palomita5.png" data-aos="fade-right" data-aos-duration="1000">
+                </div>
+            </div>
+            <div class="col">
+                <div class="img">
+                    <img src="./img/peli.png" data-aos="fade-left" data-aos-duration="1000">
+                </div>
+            </div>
+    </section>
+    <section id="antesdepeli"></section>
+    <section id="peliculas">
+        <h2>
+            Películas
+        </h2>
+        <div class="col2">
+            <img src="./img/107433.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=-FmWuCgJmxo&ab_channel=SonyPicturesEntertainment" target="_blank" style="color: black;"><h3>Venom let there be carnage</h3></a>
+        </div>
+        <div class="col2">
+            <img src="./img/purga.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=xOrXpK-rUaI&ab_channel=UniversalPictures" target="_blank" style="color: black;"><h3>La purga por siempre</h3></a>
+        </div>
+        <div class="col2">
+            <img src="./img/evangelion.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=GZfuWMDEJpw&t=12s&ab_channel=AmazonPrimeVideo" target="_blank" style="color: black;"><h3>Evangelion 3.0+1.0</h3></a>
+        </div>
+        <div class="col2">
+            <img src="./img/space.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=olXYZOsXw_o&ab_channel=WarnerBros.Pictures" target="_blank" style="color: black;"><h3>Space Jam 2</h3></a>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <footer id="redes">
+            
+            <div class="col3">
+                <a href="https://www.facebook.com/Watchate-100842929073737" target="_blank"><img src="./img/face.png" alt=""></a>
+            </div>
+            <div class="col3">
+                <a href="https://twitter.com/Watchate" target="_blank"><img src="./img/twita.png" alt=""></a>
+            </div>
+            <div class="col3">
+                <a href="https://www.instagram.com/watchate" target="_blank"><img src="./img/insta.png" alt=""></a>
+            </div>
+            <h4>
+                Contactanos
+            </h4>
+        </footer>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      AOS.init();
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
