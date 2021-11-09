@@ -6,8 +6,26 @@ window.onload = function(){
     boton.addEventListener('click', function(){
         let usuario = txtUsuario.value;
         let pass= txtPassword.value;
-        if(usuario.trim() == "admin" && pass.trim() == "123"){
-            alert("LISTO");
+        let arregloUsuarios=[
+            {id:1, nombre:"Federica Peluche", imagen:"fede.jpg", usarname:"fedep", password:"123"},
+            {id:1, nombre:"Don Camerino", imagen:"dc.jpg", usarname:"camerino", password:"123"},
+            {id:1, nombre:"Vivi", imagen:"vivi.jpg", usarname:"vivi", password:"123"},
+        ];
+        let encontro = false;
+        
+        arregloUsuarios.forEach(fila=>{
+           if (fila.usarname == usuario.trim() && fila.password==pass.trim()){
+                encontro=true;
+                localStorage.setItem("usuario",JSON.stringify(fila));
+                let fecha = new Date();
+                localStorage.setItem("fecha", fecha.getFullYear()+"/"+fecha.getMonth()+"/"+fecha.getDay()+"/"+fecha.getHours()+"/"+fecha.getMinutes()+"/"+fecha.getSeconds());
+            }
+        });
+        if(encontro){
+            ///redireccionar
+            location.href="./index.html";
+            
+
         }else{
             document.getElementById("error").innerHTML="Credenciales Incorrectas";
             txtUsuario.style.backgroundColor="#FF0000";
