@@ -7,14 +7,14 @@ window.onload = function(){
         let usuario = txtUsuario.value;
         let pass= txtPassword.value;
         let arregloUsuarios=[
-            {id:1, nombre:"Federica Peluche", imagen:"fede.jpg", usarname:"fedep", password:"123"},
-            {id:1, nombre:"Don Camerino", imagen:"dc.jpg", usarname:"camerino", password:"123"},
-            {id:1, nombre:"Vivi", imagen:"vivi.jpg", usarname:"vivi", password:"123"},
+            {id:1, nombre:"Federica Peluche", imagen:"fede.jpg", username:"fedep", password:"123"},
+            {id:1, nombre:"Don Camerino", imagen:"dc.jpg", username:"camerino", password:"123"},
+            {id:1, nombre:"Vivi", imagen:"vivi.jpg", username:"vivi", password:"123"},
         ];
         let encontro = false;
         
         arregloUsuarios.forEach(fila=>{
-           if (fila.usarname == usuario.trim() && fila.password==pass.trim()){
+           if (fila.username == usuario.trim() && fila.password==pass.trim()){
                 encontro=true;
                 localStorage.setItem("usuario",JSON.stringify(fila));
                 let fecha = new Date();
